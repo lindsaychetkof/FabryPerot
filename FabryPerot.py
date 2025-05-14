@@ -58,7 +58,7 @@ def propogate(q_in, f):
     #Telescope ratio
     print ("Telescope Ratio (f1/f2): ", w_in/w_out)
 
-
+# Test various focal lengths
 print("q_in: ", q_in)
 propogate(q_in, 0.1)
 propogate(q_in, 0.075)
